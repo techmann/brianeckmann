@@ -1,0 +1,289 @@
+body, h1, h2, h3, h4, h5, p {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  line-height: 1.3em;
+}
+
+#topnav {
+  padding-top: 1%;
+  background-color: #F7F7F7;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+#logo {
+  float: left;
+  padding-bottom: 0;
+}
+
+#logo-1 p {
+  color: #2d317d;
+  margin: 0;
+  font-size: 20px;
+}
+
+#logo-2 p {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+
+.nav-links {
+  text-align: right;
+}
+
+.nav-links ul {
+  color: #4f4f4f;
+  list-style-type: none;
+  margin: 0;
+  font-weight: 200;
+}
+
+.nav-links li {
+  padding: 3%;
+  font-size: 17px;
+  display: inline-block;
+  line-height: 2em;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-size: 34px;
+  margin-top: 23%;
+  color: #3f3f3f;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3f3f3f;
+}
+
+h3 {
+  font-size: 35px;
+  color: #2d317d;
+  font-weight: 400;
+}
+
+h4 {
+  color: #3f3f3f;
+  font-size: 26px;
+  display: inline;
+  padding-right: 2%;
+}
+
+#block-1 {
+  background-color: #2d317d;
+  width: 15px;
+  height: 130px;
+  display: inline-block;
+  float: left;
+  margin-top: .5%;
+}
+
+#process {
+  margin-top: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#process p {
+  margin-left: 4%;
+  font-size: 18px;
+  color: #3f3f3f;
+}
+
+ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+.process-2 {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.box {
+  background-color: #2d317d;
+  width: 17%;
+  display: inline-block;
+  padding: .5%;
+  padding-left: 2%;
+  margin-right: 2%;
+}
+
+.box p {
+  color: white;
+  font-size: 18px;
+  line-height: 1em;
+  padding-top: 5%;
+  font-family: 'Open Sans', sans-serif;ß
+  font-weight: 300;
+}
+
+.list p {
+  font-size: 16px;
+  line-height: .1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+#all-skills p {
+  margin: 3%;
+}
+
+#my-work {
+  margin-top: 8%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 3%;
+}
+
+#my-work p {
+  margin-left: 4%;
+  font-size: 18px;
+  color: #3f3f3f;
+}
+
+#block-2 {
+  background-color: #2d317d;
+  width: 15px;
+  height: 90px;
+  display: inline-block;
+  float: left;
+  margin-top: .5%;
+}
+
+#relay {
+  background-color: #1d458e;
+  margin-left: 4%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+#iphone {
+  margin-top: 5%;
+}
+
+#buttons {
+  margin-right: 1%;
+  float: right;
+}
+
+#buttons p {
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  margin-top: 8%;
+  margin-bottom: 10%;
+  font-weight: 100; 
+}
+
+#button-1 p {
+  color: white;
+  font-size: 14px;
+  background-color: #5fb846;
+  padding: 3%;
+  text-align: center;
+}
+
+#button-2 p {
+  color: white;
+  font-size: 14px;
+  background-color: #5fb846;
+  padding: 3%;
+  text-align: center;
+}
+
+#caddy {
+  background-color: #41b549;
+  margin: 3%;
+  margin-right: 1%;
+}
+
+#jottly {
+  background-color: #0a223f;
+  margin: 3%;
+  margin-left: 1%;
+}
+
+#projects-2 {
+  margin-left: 2.5%;
+}
+
+#caddy-logo {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#caddy p {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 100; 
+}
+
+#watch {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.no-left-pad {
+  padding-left: 0;
+}
+
+#button-3 p {
+  background-color: #494949;
+  color: white;
+  font-size: 12px;
+  padding: 5%;
+  margin-top: 20%;
+}
+
+.hvr-1 a:hover {
+  background-color: yellow;
+}
+
+#jottly p {
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+}
+
+#jottly-logo {
+  padding: 10%;
+}
+
+h5 {
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+}
+
+#macbook {
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
