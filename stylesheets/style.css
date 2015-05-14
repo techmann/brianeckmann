@@ -98,16 +98,14 @@ h4 {
   color: #3f3f3f;
   font-size: 24px;
   display: inline;
-  padding-right: 2%;
 }
 
-#block-1 {
-  width: 1vw;
-  height: 8vw;
-  display: inline-block;
-  float: left;
-  background-color: #2d317d;
-  margin-bottom: 1%;
+#header a:hover {
+  border-bottom: 2px solid #2d317d;
+}
+
+.block-1 {
+  border-left: 10px solid #2d317d;
 }
 
 #process {
@@ -194,15 +192,6 @@ ul {
 
 #mywork-p p {
   font-size: 16px;
-}
-
-#block-2 {
-  width: 1vw;
-  height: 7vw;
-  display: inline-block;
-  float: left;
-  background-color: #2d317d;
-  margin-bottom: 1%;
 }
 
 #relay {
@@ -750,7 +739,7 @@ h6 {
   border-radius: 10px;
   color: #2d317d;
   font-size: 14px;
-  padding: 10px 70px 10px 70px;
+  padding: 1.5% 3% 1.5% 3%;
   text-decoration: none;
   font-weight: 400;
   display: block;

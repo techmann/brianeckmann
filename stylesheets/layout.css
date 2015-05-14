@@ -12,7 +12,6 @@
 /*Medium*/
 @media only screen and (min-width: 644px) and (max-width: 1024px) {
 
-
 .box {
   width: 20%;
 }
@@ -156,7 +155,7 @@ h4 {
 
 #process p {
   font-size: 16px;
-  margin-left: 9%;
+  margin-left: 5%;
 }
 
 .box {
