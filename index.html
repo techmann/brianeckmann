@@ -12,58 +12,106 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
+
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+ 
+    <!--Using the hamburger menu display code-->
+    <script src="hamburger.js"></script>
+ 
   </head>
 
   <body>
     <a name="top"></a>
 
+  <div id="container">
+
   <div id="topnav">  
    <div class="row">
-    <div class="large-11 columns">
+    <div class="large-10 large-offset-1 medium-10 medium-centered columns">
       <div class="row">
-        <div class="large-3 columns" id="logo">
-          <div id="logo-1">
-            <p>Brian Eckmann</p>
-          </div>
-          <div id="logo-2">
-            <p>UX/UI Design</p>
-          </div>
+        <div class="large-3 medium-4 columns" id="logo">
+            <a href="index.html">
+              <div class="logo-1">
+                <p>Brian Eckmann</p>
+              </div>
+              <div class="logo-2">
+                <p>UX/UI Design</p>
+              </div>
+            </a>
         </div>
-        <div class="large-5 columns nav-links">
+        <div class="large-5 medium-8 columns nav-links">
           <ul>
-            <li>my story</li>
-            <li>resume</li>
-            <li>work</li>
-            <li>contact</li>
+            <li><a href="mystory.html">my story</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="work.html">work</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+<nav>
+  <ul>
+    <a href="mystory.html"><li>my story</li></a>
+    <a href="resume.html"><li>resume</li></a>
+    <a href="work.html"><li>work</li></a>
+    <li>contact</li>
+  </ul>
+</nav>
+
+<div id="contentLayer"></div>
+
+<div id="content">
+
+   <div id="mobilenav">
+     <a href="index.html"> 
+      <div id="mlogo">
+          <div class="logo-1">
+            <p>Brian Eckmann</p>
+          </div>
+          <div class="logo-2">
+            <p>UX/UI Design</p>
+          </div>
+      </div>
+    </a>
+        <div id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>  
+  </div>
 
   <div class="row">
-    <div class="large-offset-2 colums">
+    <div class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns">
       <h1>IT security professional</h1>
       <h2>turned</h2>
       <h3>user experience designer</h3>
-      <h4>see how I design</h4>
+      <a href="#design-process"><h4>see how I design</h4></a>
       <h4>or</h4>
-      <h4>see my work</h4>
+      <a href="#mywork"><h4>see my work</h4></a>
     </div>
   </div>
 
+  <div id="design-process"></div>
+
   <div class="row">
-    <div id="process" class="large-10 large-centered columns">
+    <div id="process" class="large-10 large-offset-1 small-12 columns">
       <div id="block-1"></div>
-      <p>user experience design is a <i><span style="color:#2d317d"> process </span></i> </p>
-      <p>A great user experience doesn't happen on the first try. It takes research, listening, and constant iteration to create a final products that users love. I not only want something to look great, but it needs to meet the goals of the business and users. Here is the process I use to create the best user experiences.</p>
-    </div>
+        <p>user experience design is a <i><span style="color:#2d317d"> process </span></i> </p>
+      <div id="process-p">
+        <p>A great user experience doesn't happen on the first try. It takes research, listening, and constant iteration to create a final products that users love. I not only want something to look great, but it needs to meet the goals of the business and users. Here is the process I use to create the best user experiences.</p>
+      </div>
   </div>
+</div>
+
 
  
   <div class="row">
-    <div class="large-12 large-centered columns">
+    <div class="large-10 large-offset-1 columns">
      <div class="process-2"> 
       <div class="box">
         <p>1. Strategy</p>
@@ -98,77 +146,89 @@
           </div>
       </div>
     </div>
-
+<div id="mywork"></div>
     <div id="all-skills">
-      <p>full list of skills on my <b><span style="color:#2d317d"> resume </span></b> page</p>
+      <p>full list of skills on my <a href="resume.html"> resume </a> page</p>
     </div>
 
    </div>
   </div>
 
+
  <div class="row">
-    <div id="my-work" class="large-10 large-centered columns">
+    <div id="my-work" class="large-10 large-offset-1 columns">
       <div id="block-2"></div>
       <p>my work</p>
-      <p>As a graduate of the BLOC User Experience program, my design work includes 3 projects that showcase final products of the end-to-end user experience design process.</p>
+      <div id="mywork-p">
+        <p>As a graduate of the BLOC User Experience program, my design work includes 3 projects that showcase final products of the end-to-end user experience design process.</p>
+      </div>
     </div>
   </div>
 
   <div class="row">
-    <div id="projects" class="large-10 columns">
+    <div id="projects" class="large-11 large-centered small-11 columns">
       <div class="row" id="relay">
-        <div class="large-3 columns">
+        <div class="medium-3 small-11 columns">
           <img src="images/relay.gif" id="relay-logo">
         </div>
-        <div class="large-4 columns">
+        <div class="medium-5 small-11 columns no-right-pad">
           <img src="images/iphone-home.png" id="iphone">
         </div>
-        <div class="large-4 columns" id="buttons">
+        <div class="medium-3 small-11 columns no-left-pad" id="buttons">
             <p>An iOS app for sharing mobile content with select individuals or groups</p>
+            <a href="work.html">
             <div id="button-1">
               <p>view the case study</p>
-            </div>
+            </div></a>
+            <a href="http://techmann.github.io/relay/" target="_blank">
             <div id="button-2">
               <p>visit the landing page</p>
-            </div>
+            </div></a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="large-10 columns" id="projects-2">
+      <div class="large-11 large-centered small-11 columns" id="projects-2">
+
           <div class="row">
-            <div class="large-6 columns" id="caddy">
+            <div class="medium-6 small-11 columns" id="caddy">
               <div class="row">
-                <div class="large-7 columns">
+                <div class="medium-6 columns">
                   <img src="images/watch.png" id="watch">
                 </div>
-                <div class="large-5 no-left-pad columns">
+                <div class="medium-6 columns">
                   <img src="images/caddy.png" id="caddy-logo"> 
                   <p>An Apple Watch app designed to improve your golf game<p>
                   <div id="button-3">
-                    <a href"#" class="hvr-1"><p>visit the landing page</p></a>
-                  </div>
+                    <a href="http://techmann.github.io/Caddy/" target="_blank" class="hvr-1"><p>visit the landing page</p>
+                  </div></a>
                 </div>
               </div>
             </div>
-            <div class="large-5 columns" id="jottly">
+
+            <div class="medium-5 small-11 columns" id="jottly">
               <div class="row">
-                <div class="large-5 columns">
+                <div class="medium-6 columns">
                   <img src="images/jottly-logo.png" id="jottly-logo">
-                </div>
-                <div class="large-7 columns">   
-                    <h5>Jottly</h5>
+                  <h5>Jott.ly</h5>
                     <p>Landing page for a website that connects chefs around the world to collaborate on recipes.</p>
                 </div>
-              <img src="images/macbook.png" id="macbook">
+                <div class="medium-6 columns" id="jottly-text">
+                  <img src="images/macbook.png" id="macbook">
+                  <div id="button-4">
+                    <a href="http://techmann.github.io/Jottly/" target="_blank" class="hvr-1"><p>visit the landing page</p></a>
+                  </div>
+                </div>
             </div>
           </div>
       </div>
     </div>
 
-
+  </div>
+  </div>
+  </div>
 
   </body>
 </html>
