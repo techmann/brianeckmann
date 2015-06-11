@@ -27,8 +27,9 @@ body {
 }
 
 #mlogo {
-  float: left;
+  float: right;
   padding: 2%;
+  margin-right: 3%;
 }
 
 .logo-1 p {
@@ -378,12 +379,13 @@ h5 {
   border-radius: 3px 3px 3px 3px;
   cursor: pointer;
   display: inline-block;
-  float: right;
+  float: left;
   height: 45px;
   padding: 3px 4px 3px;
   position: relative;
   width: 45px;
   margin-top: 3%;
+  margin-left: 5%;
 }
 
 #hamburger div {
@@ -638,6 +640,8 @@ h6 {
      text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .space-pics-1 img {
@@ -764,6 +768,32 @@ h6 {
   padding-top: 1%;
   padding-left: 1%;
 }
+
+.bg-blue {
+  background-color: rgba(29,69,142,.2);
+}
+
+#mlogo2 {
+  background: white;
+  padding-top: 50%;
+  display: block;
+  margin: auto;
+  padding-bottom: 40%;
+  text-align: center;
+}
+
+.logo-3 p {
+  color: #2d317d;
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo-4 p {
+  color: #4f4f4f;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
 
 
 

@@ -173,11 +173,13 @@ h4 {
 
 .list p {
   font-size: 15px;
+  font-weight: 300;
 }
 
 #my-work p {
   font-size: 16px;
   margin-left: 9%;
+  color: #323232;
 }
 
 #relay-logo {
@@ -349,6 +351,7 @@ h6 {
   width: 100%;
   margin-top: 7%;
   margin-bottom: 10%;
+  padding: 3% 3% 3% 3%;
 }
 
 #contact img {
@@ -373,6 +376,53 @@ h6 {
     *display: inline;
     zoom: 1;
 }
+
+.logo-1 p {
+  font-weight: 400;
+}
+
+.logo-2 p {
+  font-weight: 400;
+}
+
+#process p {
+  font-color: #323232;
+}
+
+#block-1 p {
+  font-color: #323232;
+}
+
+#buttons p {
+  font-weight: 300;
+}
+
+#button-1 p {
+  font-weight: 300;
+}
+
+#button-2 p {
+  font-weight: 300;
+}
+
+#button-3 p {
+  font-weight: 300;
+}
+
+#button-4 p {
+  font-weight: 300;
+}
+
+#caddy p {
+  font-weight: 300;
+}
+
+#jottly p {
+  font-weight: 300;
+}
+
+
+
 
 
 
