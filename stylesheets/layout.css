@@ -262,6 +262,7 @@ h5 {
 
 .box-2 p {
   font-size: 17px;
+  margin-top: 15%;
 }
 
 .box-2 li {
@@ -277,6 +278,7 @@ h5 {
 h6 {
   font-size: 17px;
   padding-left: 2%;
+  font-weight: 400;
 }
 
 #skillset-1 p {

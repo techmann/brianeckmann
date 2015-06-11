@@ -640,8 +640,8 @@ h6 {
      text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .space-pics-1 img {
