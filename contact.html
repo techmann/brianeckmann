@@ -16,6 +16,8 @@
     <!--Using jQuery and jQuery UI for display effects-->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  
     <!--Using the hamburger menu display code-->
     <script src="hamburger.js"></script>
@@ -92,16 +94,45 @@
         <span class="stretch"></span>
       </div>
       <p>or leave me a message (no beep)</p>
-      <form action="demo_form.asp">
-        <p>email:</p><input type="text" name="email" class="textbox">
-        <p>message:</p><textarea name="email" class="message"></textarea>
-        <a class="btn" href="#">submit</a>
+      <form>
+        <p>email:</p><input type="text" name="email" class="textbox" id="Email">
+        <p>message:</p><textarea name="message" class="message" id="Message"></textarea>
+        <button class="btn" id="ButtonSubmit"onclick="postContactToGoogle(); popup()">submit</button>
       </form>
 
     </div>
   </div>
 
+<script>
+  function postContactToGoogle() {
+      var email = $('#Email').val();
+      var message = $('#Message').val();
 
+          $.ajax({
+              url: "https://docs.google.com/forms/d/1vEeaCyGmY-jABuQiZE0fVVLfAwyAGUX26jtXhGBsVvY/formResponse",
+              data: { "entry.1345363302": email, 
+              "entry_803480640": message},
+              type: "POST",
+              dataType: "xml",
+              // statusCode: {
+              //     0: function () {
+              //         window.location.replace("ThankYou.html");
+              //     },
+              //     200: function () {
+              //         window.location.replace("ThankYou.html");
+              //     }
+              // }
+          });
+  }
+    </script>
+
+  <script>
+
+  function popup() {
+    alert("Thank you for the message! I'll respond as soon as I can.")
+  }
+
+  </script>
 
 
 
