@@ -61,7 +61,7 @@ body {
   font-size: 16px;
   display: inline-block;
   line-height: 2em;
-  padding-bottom: 0;
+  padding-bottom: 1%;
 }
 
 .nav-links li:hover {
@@ -443,6 +443,10 @@ nav li a {
     text-decoration: none;
 }
 
+nav li:hover {
+  background-color: rgba(73,73,73, .2);
+}
+
 /*
 The Layer that will be layed over the content
 so that the content is unclickable while menu is shown
@@ -640,8 +644,8 @@ h6 {
      text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .space-pics-1 img {
@@ -792,6 +796,39 @@ h6 {
   color: #4f4f4f;
   font-size: 18px;
   margin-bottom: 2%;
+}
+
+#contact-1 {
+  margin-top: 2%;
+}
+
+#contact-1 img {
+  height: 50px;
+  margin-right: 2%;
+  padding: 1%;
+}
+
+#contact-1 img:hover {
+  padding: .5%;
+}
+
+#contact-1 a {
+  font-size: 18px;
+  color: #2d317d;
+  font-weight: 300;
+}
+
+#contact-1 a:hover {
+  font-weight: 600;
+}
+
+.space-pics-3 a {
+  padding-right: 1%;
+}
+
+#story a {
+  color: #2d317d;
+
 }
 
 
