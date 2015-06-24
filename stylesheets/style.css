@@ -13,6 +13,21 @@ body {
   overflow-x:hidden;
 }
 
+#chrome {
+  margin-top: 8%;
+  display: inline-block;
+}
+
+#chrome img {
+  height: 20px;
+  float: left;
+}
+
+#chrome p {
+  font-size: 14px;
+  margin-left: 4%;
+}
+
 #topnav {
   background-color: #F7F7F7;
   top: 0;
@@ -223,7 +238,7 @@ ul {
   font-size: 15px;
   margin-top: 20%;
   margin-bottom: 20%;
-  font-weight: 400; 
+  font-weight: 300; 
 }
 
 #button-1 p {
@@ -294,7 +309,7 @@ ul {
   font-size: 13px;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-weight: 400; 
+  font-weight: 300; 
 }
 
 #watch {
@@ -332,7 +347,7 @@ ul {
   display: inline-block;
   font-size: 13px;
   color: white;
-  font-weight: 400; 
+  font-weight: 300; 
 }
 
 #jottly-logo {

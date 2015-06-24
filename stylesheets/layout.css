@@ -127,6 +127,10 @@ h5 {
   padding-bottom: 2%;
 }
 
+#chrome {
+  margin-top: 10%;
+}
+
 }
 
 
@@ -458,6 +462,9 @@ h6 {
     zoom: 1;
 }
 
+#chrome p {
+  margin-left: 6%;
+}
 
 
 
