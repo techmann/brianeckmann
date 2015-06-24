@@ -36,12 +36,14 @@ body {
   color: #2d317d;
   margin: 0;
   font-size: 20px;
+  font-weight: 400; 
 }
 
 .logo-2 p {
   color: #4f4f4f;
   font-size: 16px;
   margin-bottom: 2%;
+  font-weight: 300; 
 }
 
 .nav-links {
@@ -53,7 +55,7 @@ body {
   color: #4f4f4f;
   list-style-type: none;
   margin: 0;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .nav-links li {
@@ -118,7 +120,7 @@ h4 {
 #process p {
   margin-left: 4%;
   font-size: 18px;
-  color: #3f3f3f;
+  color: #222222;
 }
 
 #process-p p {
@@ -160,7 +162,7 @@ ul {
   font-size: 16px;
   line-height: .1em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #all-skills p {
@@ -188,7 +190,7 @@ ul {
 #my-work p {
   margin-left: 4%;
   font-size: 18px;
-  color: #3f3f3f;
+  color: #222222;
 }
 
 #mywork-p p {
@@ -221,7 +223,7 @@ ul {
   font-size: 15px;
   margin-top: 20%;
   margin-bottom: 20%;
-  font-weight: 100; 
+  font-weight: 300; 
 }
 
 #button-1 p {
@@ -233,6 +235,7 @@ ul {
   padding: 3%;
   color: white;
   font-size: 14px;
+  font-weight: 300; 
 }
 
 #button-1 p:hover {
@@ -254,6 +257,7 @@ ul {
   margin-top: 10%;
   color: white;
   font-size: 14px;
+  font-weight: 300; 
 }
 
 #projects-2 {
@@ -290,7 +294,7 @@ ul {
   font-size: 13px;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-weight: 100; 
+  font-weight: 300; 
 }
 
 #watch {
@@ -313,6 +317,7 @@ ul {
   font-size: 12px;
   padding: 5%;
   margin-top: 5%;
+  font-weight: 300; 
 }
 
 #button-3 p:hover {
@@ -327,6 +332,7 @@ ul {
   display: inline-block;
   font-size: 13px;
   color: white;
+  font-weight: 300; 
 }
 
 #jottly-logo {
@@ -347,6 +353,7 @@ h5 {
   font-family: 'Montserrat';
   font-style: italic;
   margin-right: 10%;
+  font-weight: 300; 
 }
 
 #macbook {
@@ -365,6 +372,7 @@ h5 {
   padding: 5%;
   margin: auto;
   margin-top: 10%;
+  font-weight: 300; 
 }
 
 #button-4 {
@@ -612,6 +620,7 @@ h6 {
   width: 17%;
   font-size: 16px;
   text-align: center;
+  font-weight: 400;
 }
 
 #relay-landing-link a:hover {
