@@ -278,12 +278,12 @@ h5 {
 }
 
 .box-2 p {
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 15%;
 }
 
 .box-2 li {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .box-2 {
@@ -375,6 +375,10 @@ h6 {
 
 #contact img {
   margin-right: 10%;
+}
+
+.space-pics img {
+  margin-right: 5%;
 }
 
 .space-pics-2 {
