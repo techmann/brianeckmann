@@ -1,9 +1,18 @@
 body, h1, h2, h3, h4, h5, h6, p {
   display: block;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.3em;
   -webkit-overflow-scrolling: touch;
+}
+
+html { 
+  background: url("../images/background-portfolio.png") 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #chrome {
@@ -22,12 +31,30 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 #topnav {
-  background-color: #F7F7F7;
   top: 0;
   left: 0;
   right: 0;
   position: fixed;
   z-index: 1000;
+  background-color: #F7F7F7;
+}
+
+#fixed-back {
+  background-color: rgba(250,250,250,.8);
+  z-index: -500;
+  height: 100%;
+  position: fixed;
+  width: 80%;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+#navback {
+  background-color: #F7F7F7;
+  width: 100%;
+  border-radius: 15px;
 }
 
 #logo {
@@ -44,14 +71,15 @@ body, h1, h2, h3, h4, h5, h6, p {
   color: #2d317d;
   margin: 0;
   font-size: 20px;
-  font-weight: 300; 
+  font-weight: 400; 
 }
 
 .logo-2 p {
   color: #4f4f4f;
   font-size: 16px;
   margin-bottom: 2%;
-  font-weight: 300; 
+  font-weight: 400;
+  padding-bottom: 5px;
 }
 
 .nav-links {
@@ -63,7 +91,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   color: #4f4f4f;
   list-style-type: none;
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav-links li {
@@ -72,11 +100,13 @@ body, h1, h2, h3, h4, h5, h6, p {
   display: inline-block;
   line-height: 2em;
   padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .nav-links li:hover {
   border-bottom: 2px solid #2d317d;
   color: #2d317d;
+  font-weight: 600;
 }
 
 .nav-links a {
@@ -84,7 +114,12 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 #logo a:hover p {
-  font-weight: 400;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  /*text-shadow: 1px 1px #0a2240;*/
+  /*text-shadow: .5px .5px #cccccc;*/
 }
 
 
@@ -92,23 +127,26 @@ h1 {
   font-size: 30px;
   margin-top: 35%;
   color: #3f3f3f;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 30px;
   color: #3f3f3f;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 35px;
   color: #2d317d;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h4 {
   color: #3f3f3f;
   font-size: 24px;
   display: inline;
+  font-weight: 400;
 }
 
 #header a:hover {
@@ -119,6 +157,12 @@ h4 {
   border-left: 10px solid #2d317d;
 }
 
+.block-1 img {
+  height: 50px;
+  display: inline;
+  margin-left: 4%;
+}
+
 #process {
   margin-top: 15%;
   display: inline-block;
@@ -126,13 +170,17 @@ h4 {
 }
 
 #process p {
-  margin-left: 4%;
+  margin-left: 1%;
   font-size: 18px;
   color: #222222;
+  font-weight: 600;
+  display: inline-block;
 }
 
 #process-p p {
   font-size: 16px;
+  margin-left: 4%;
+  font-weight: 500;
 }
 
 ul {
@@ -155,6 +203,7 @@ ul {
   padding: .5%;
   padding-left: 2%;
   margin-right: 2%;
+  border-radius: 15px;
 }
 
 .box p {
@@ -196,13 +245,18 @@ ul {
 }
 
 #my-work p {
-  margin-left: 4%;
+  margin-left: 2%;
   font-size: 18px;
   color: #222222;
+  display: inline-block;
+  font-weight: 600;
 }
 
 #mywork-p p {
   font-size: 16px;
+  margin-left: 4%;
+  font-weight: 400;
+  margin-top: 1%;
 }
 
 #relay {
@@ -210,6 +264,7 @@ ul {
   margin-left: 5%;
   padding-bottom: 1%;
   padding-top: 1%;
+  border-radius: 15px;
 }
 
 #relay-logo {
@@ -243,7 +298,8 @@ ul {
   padding: 3%;
   color: white;
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
+  border-radius: 5px;
 }
 
 #button-1 p:hover {
@@ -265,11 +321,12 @@ ul {
   margin-top: 10%;
   color: white;
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
+  border-radius: 5px;
 }
 
 #projects-2 {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 3%;
 }
 
@@ -277,12 +334,12 @@ ul {
   background-color: #41b549;
   margin-left: 6.5%;
   margin-right: 1%;
-  height: 30vh;
+  border-radius: 15px;
 }
 
 #jottly {
   background-color: #0a223f;
-  height: 30vh;
+  border-radius: 15px;
 }
 
 #caddy-logo {
@@ -325,7 +382,8 @@ ul {
   font-size: 12px;
   padding: 5%;
   margin-top: 5%;
-  font-weight: 400; 
+  font-weight: 400;
+  border-radius: 5px;
 }
 
 #button-3 p:hover {
@@ -380,7 +438,8 @@ h5 {
   padding: 5%;
   margin: auto;
   margin-top: 10%;
-  font-weight: 400; 
+  font-weight: 400;
+  border-radius: 5px;
 }
 
 #button-4 {
@@ -414,7 +473,7 @@ h5 {
 }
 
 #content {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     position: relative;
     width: auto;
     height: 100%;
@@ -442,6 +501,7 @@ nav ul {
     margin: 0;
     width: 100%;
     padding: 0;
+    margin-top: 24%;
 }
 
 nav li {
@@ -508,7 +568,7 @@ h6 {
   color: #2d317d;
   font-size: 20px;
   margin: 1%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .box-2 ul {
@@ -522,6 +582,10 @@ h6 {
   margin-top: 3%;
 }
 
+#white-background {
+  background-color: white;
+}
+
 #skillset-1 p {
   color: #4f4f4f;
   font-size: 16px;
@@ -531,7 +595,7 @@ h6 {
 #skillset-2 p {
   color: #2d317d;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1%;
 }
 
@@ -563,6 +627,7 @@ h6 {
 
 .space-pics img {
   height: 50px;
+  margin-top: 2%;
 }
 
 .space-pics {
@@ -603,7 +668,7 @@ h6 {
 
 #h7 p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 26px;
   color: #727272;
   margin-top: 20%;
@@ -623,17 +688,18 @@ h6 {
 }
 
 #relay-landing-link a {
-  color: #5fb746;
-  padding: 1%;
+  color: white;
+  padding: 2%;
   width: 17%;
   font-size: 16px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
+  background-color: #5fb746;
+  border-radius: 15px;
 }
 
 #relay-landing-link a:hover {
-  background-color: #5fb746;
-  color: white;
+  font-weight: 900;
 }
 
 .bg-blue {

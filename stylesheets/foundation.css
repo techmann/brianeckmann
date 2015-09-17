@@ -55,7 +55,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
+/*  background: #fff;*/
   color: #222;
   padding: 0;
   margin: 0;
@@ -414,7 +414,7 @@ select {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.063em) {
   .medium-push-0 {
     position: relative;
     left: 0%;

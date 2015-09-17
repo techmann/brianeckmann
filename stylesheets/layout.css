@@ -10,7 +10,7 @@
 
 
 /*Medium*/
-@media only screen and (min-width: 644px) and (max-width: 1024px) {
+@media only screen and (min-width: 706px) and (max-width: 1024px) {
 
 .box {
   width: 20%;
@@ -131,15 +131,23 @@ h5 {
   margin-top: 10%;
 }
 
+#fixed-back {
+  width: 85%;
+}
+
 }
 
 
 /*Small*/
-@media only screen and (max-width: 643px) {
+@media only screen and (max-width: 705px) {
+
+#fixed-back {
+  width: 90%;
+}
 
 h1 {
   font-size: 28px;
-  margin-top: 35%;
+  margin-top: 30%;
 }
 
 h2 {
@@ -286,20 +294,21 @@ h5 {
 }
 
 .box-2 li {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .box-2 {
-  width: 30%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 42%;
+  margin-left: 5%;
 }
 
 h6 {
   font-size: 17px;
-  padding-left: 2%;
+  padding-left: 4%;
   font-weight: 400;
+  margin-top: 10%;
 }
+
 
 #skillset-1 p {
   font-size: 15px;
@@ -328,6 +337,7 @@ h6 {
 
 #story p {
   font-size: 15px;
+  padding: 1%;
 }
 
 .space-pics-1 img {
@@ -401,6 +411,7 @@ h6 {
     display: inline-block;
     *display: inline;
     zoom: 1;
+    margin-top: 10%;
 }
 
 .logo-1 p {
@@ -473,10 +484,20 @@ h6 {
   margin-left: 8%;
 }
 
+#block-2 {
+  margin-bottom: 25%;
+}
 
+#topmargin1 {
+  margin-top: 10%;
+}
 
+#relay-iphone img {
+  margin-top: 7%;
+}
 
-
-
+#logo {
+  padding-right: 0;
+}
 
 }
