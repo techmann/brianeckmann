@@ -288,6 +288,10 @@ h5 {
   font-size: 15px;
 }
 
+#resume-h {
+  margin-top: 25%;
+}
+
 .box-2 p {
   font-size: 16px;
   margin-top: 15%;
@@ -332,7 +336,7 @@ h6 {
 }
 
 #resume-h {
-  margin-top: 7%;
+  margin-top: 40%;
 }
 
 #story p {
@@ -354,6 +358,7 @@ h6 {
 
 .h8 p {
   font-size: 22px;
+  margin-top: 18%;
 }
 
 #h7 p {
@@ -362,6 +367,11 @@ h6 {
 
 #relay-landing-link {
   text-align: center;
+  padding-top: 5%;
+}
+
+#relay-landing-link a {
+  padding: 4%;
 }
 
 #relay-logo-2 img {
@@ -489,7 +499,7 @@ h6 {
 }
 
 #topmargin1 {
-  margin-top: 10%;
+  margin-top: 30%;
 }
 
 #relay-iphone img {
@@ -498,6 +508,15 @@ h6 {
 
 #logo {
   padding-right: 0;
+}
+
+#story img {
+  display: block;
+}
+
+#profile {
+  width: 100%;
+  height: auto;
 }
 
 }
