@@ -206,7 +206,7 @@ h4 {
 
 #my-work p {
   font-size: 16px;
-  margin-left: 9%;
+  margin-left: 5%;
   color: #323232;
 }
 
@@ -434,10 +434,19 @@ h6 {
 
 #process p {
   font-color: #323232;
+  margin-left: 3%;
 }
 
 #block-1 p {
   font-color: #323232;
+}
+
+.block-1 {
+  border-left: none;
+}
+
+.block-1 img {
+  margin-left: 7%;
 }
 
 #buttons p {
@@ -517,6 +526,16 @@ h6 {
 #profile {
   width: 100%;
   height: auto;
+}
+
+#contact-1 p {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  display: inline;
+  background-color: #2d317d;
+  border-radius: 15px;
+  padding: 5% 6% 5% 6%;
 }
 
 }

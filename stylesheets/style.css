@@ -106,7 +106,6 @@ html {
 .nav-links li:hover {
   border-bottom: 2px solid #2d317d;
   color: #2d317d;
-  font-weight: 600;
 }
 
 .nav-links a {
@@ -114,7 +113,7 @@ html {
 }
 
 #logo a:hover p {
-  font-weight: bold;
+  border-right: 2px solid #2d317d;
 }
 
 h1 {
@@ -378,6 +377,7 @@ ul {
   margin-top: 5%;
   font-weight: 400;
   border-radius: 5px;
+  text-align: center;
 }
 
 #button-3 p:hover {
@@ -485,7 +485,7 @@ nav {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #ecf0f1;
+    background-color: #F7F7F7;
 }
 
 nav ul {
@@ -496,7 +496,7 @@ nav ul {
     margin-top: 24%;
 }
 
-nav li {
+/*nav li {
     position: relative;
     font-size: 16px;
     font-weight: bold;
@@ -504,6 +504,18 @@ nav li {
     border-top: 1px solid #cccccc;
     padding: 25px;
     color: #2d317d;
+}*/
+
+nav li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    margin: 5%;
+    background-color: #2d317d;
+    text-align: center;
 }
 
 nav li a {
@@ -512,7 +524,8 @@ nav li a {
 }
 
 nav li:hover {
-  background-color: rgba(73,73,73, .2);
+  border-left: 10px solid white;
+  border-right: 10px solid white;
 }
 
 /*
@@ -615,6 +628,7 @@ h6 {
   float: left;
   margin-right: 5%;
   margin-bottom: 5%;
+  border-radius: 10px;
 }
 
 #story p {
@@ -860,7 +874,7 @@ h6 {
 
 #mlogo2 {
   background: white;
-  padding-top: 50%;
+  padding-top: 30%;
   display: block;
   margin: auto;
   padding-bottom: 40%;
@@ -900,7 +914,7 @@ h6 {
   display: inline;
   background-color: #2d317d;
   border-radius: 15px;
-  padding: 1% 2% 1% 2%;
+  padding: 1.5% 2.5% 1.5% 2.5%;
 }
 
 #contact-1 p:hover {
